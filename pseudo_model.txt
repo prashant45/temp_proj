@@ -1,0 +1,26 @@
+8 layer model
+odd number - conv layer_
+even number - relu layer
+
+
+
+model = {
+    layer_1 = {
+        type: 'conv',
+        weights: ?,
+        stride: n,
+        pad: n,
+        msq: omitted
+        m: {
+            filters: f * f * input_channels * out_channels
+            bias: 1 * out_channels
+        },
+        v: {
+            filters: f * f * input_channels * out_channels
+            bias: 1 * out_channels
+        }
+    },
+    layer_2 = {
+        type: 'relu'
+    }
+}
